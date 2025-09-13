@@ -1,0 +1,26 @@
+
+body {
+    background-image: url(/zdj/pusta-książka-kucharska-32054555.webp);
+    display: flex;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 16%;
+    padding-left: 22%; 
+    gap: 310px;
+}
+.tabela1, .tabela2 {
+    border-color: darkblue;
+    width: 300px;
+    border-radius: 8px;
+    border-collapse:collapse ;
+}
+
+table td, table th{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+    word-break: break-word;
+}
